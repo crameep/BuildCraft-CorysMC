@@ -26,7 +26,7 @@ import buildcraft.core.proxy.CoreProxy;
 
 public class TileTank extends TileBuildCraft implements ITankContainer {
 
-	public final LiquidTank tank = new LiquidTank(LiquidContainerRegistry.BUCKET_VOLUME * 16);
+	public final LiquidTank tank = new LiquidTank(LiquidContainerRegistry.BUCKET_VOLUME * 1000);
 	public boolean hasUpdate = false;
 	public SafeTimeTracker tracker = new SafeTimeTracker();
 
